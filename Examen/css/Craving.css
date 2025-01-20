@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #c57908;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  /* Contenedor principal */
+  .main-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Columnas laterales */
+  .left-column, .right-column {
+    background-color: #b66e03;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  /* Contenido central */
+  .center-content {
+    background-color: #d37801;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  
